@@ -58,6 +58,8 @@ Shared object for the solvers `MathSAT5` and `Z3` can be added by using addition
       <groupId>org.sosy-lab</groupId>
       <artifactId>javasmt-solver-z3</artifactId>
       <version>4.8.10</version>
+      <type>jar</type>
+      <classifier>com.microsoft.z3</classifier>
     </dependency>
     <dependency>
       <groupId>org.sosy-lab</groupId>
